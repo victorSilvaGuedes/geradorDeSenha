@@ -15,5 +15,9 @@ export default function geraSenha(qntd, maiusc, minusc, numeros, simbolos) {
     if (numeros) senhaArray.push(geraNumero());
     if (simbolos) senhaArray.push(geraSimbolo());
   }
+
+  //randomizar o senhaArray
+  senhaArray.sort(() => Math.random() - 0.5);
+
   return senhaArray.join(``).slice(0, qntd);
 }
