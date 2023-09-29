@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/3256/3256783.png"
+      type="image/x-icon"
+    />
+    <title>Gerador de senhas</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Gerador de senhas</h1>
+      <p>Selecione as opções para criar sua senha</p>
+      <hr />
+      <form class="form">
+        <p>Quantidade de caracteres:</p>
+        <div class="caracteres">
+          <input type="range" class="qntCaracteres" min="0" max="20" />
+          <span class="numeroCaracteres">10</span>
+        </div>
+        <div class="botoesOpcoes">
+          <button class="btnNumeros">Números</button>
+          <button class="btnSimbolos">Símbolos</button>
+          <button class="btnMaiusc">MAIÚSCULAS</button>
+          <button class="btnMinusc">minúsculas</button>
+        </div>
+
+        <button class="btnGerar">Gerar</button>
+      </form>
+      <div class="senhaGerada">Sua senha aqui</div>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+  </body>
+</html>
