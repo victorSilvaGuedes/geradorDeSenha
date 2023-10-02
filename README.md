@@ -1,6 +1,6 @@
 # Gerador de Senhas
 
-## Como iniciar o projeto ❔
+# Como iniciar o projeto ❔
 - Clone o repósito
 - Abra a pasta do projeto no VS Code
 - Abra o terminal e digite 'npm run dev'
